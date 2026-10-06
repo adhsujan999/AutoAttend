@@ -7,7 +7,7 @@ from Screens.student_screens import student_screen
 from components.dialog_auto_enroll import auto_enroll_dialog
 def app():
     st.set_page_config(
-        page_title="snapclass-Making Attendance faster using AI",
+        page_title="AttendX-Making Attendance faster using AI",
         page_icon="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4NbFrV1HuaJRstxXG-s2J0np1nx0Sx26q9RnrUbntpQ&s=10"
     )
     if 'login_type' not in st.session_state:
