@@ -242,7 +242,7 @@ def teacher_tab_take_records():
         )
 
         summary['Attendance Stats'] = (
-            "emoji"+ summary['Present_Count'].astype(str) + " /" 
+            "🙋‍♀️" + " " + summary['Present_Count'].astype(str) + " /" 
             + summary['Total_Count'].astype(str) + 'Students'
         )
 
